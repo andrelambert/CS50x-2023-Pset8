@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOBBIES</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+    <!-- Linking to CSS files -->
+    <link rel="stylesheet" href="../css/hobbies.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-sm">
+        <div class="container">
+            <a href="../html/index.html" class="navbar-brand mb-0 h1">
+                <img src="../images/smiley.png" width="30" height="30" class="d-inline-block align-top" alt="Smiley face">
+                André Lambert
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="../html/index.html" class="nav-link">
+                            HOME 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../html/about.html" class="nav-link">
+                            ABOUT ME
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../html/hobbies.html" class="nav-link">
+                            <b>HOBBIES</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../html/photography.html" class="nav-link">
+                            PHOTOGRAPHY
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>        
+    </nav>
+
+    <div class="main">
+        <h1>HOBBIES</h1>
+        <p> I'm interested in lots of things! Let me tell you about some of them. </p>
+
+        <div class="accordion-example">
+            <div id="accordion">
+        
+                <!-- Item 1 -->
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Coffee
+                            </button>
+                        </h5>
+                    </div>
+        
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            I have a passion for specialty coffee. I love to brew it, drink it, and talk about it. I own a semi-professional espresso machine at home along several other brewing methods.
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Item 2 -->
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Vinyl
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            I always loved music and I'm a big fan of listening to vinyl records. I own a modest collection of records, mostly from the 60's and 70's.
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Item 3 -->
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Videogames
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            I'm a fan of Nintendo games, specially the Zelda franchise. I own the SNES, Nintendo 64, Gamecube, Wii and Switch. 
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Item 4 -->
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Cycling
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            Recently my latest hobby has been getting into cycling. I own a road bike and I'm riding it around the city a couple times a week.
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>    
+
+    </div>
+
+
+    
+</body>
+
+<footer>
+    CS50X 2023 | PROBLEM SET 8
+</footer>
+
+</html>
